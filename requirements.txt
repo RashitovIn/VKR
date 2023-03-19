@@ -1,5 +1,5 @@
 albumentations==0.3.3         
-apex==0.9.8          
+apex==0.1         
 catboost==0.12.2        
 efficientnet-pytorch==0.5.1
 kaggle==1.5.6         
