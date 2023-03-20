@@ -1,4 +1,4 @@
-workdir = './model/model100'
+workdir = '/kaggle/working/model/model100'
 seed = 30
 apex = True
 
@@ -61,8 +61,8 @@ window_policy = 4
 data = dict(
     train=dict(
         dataset_type='CustomDataset',
-        annotations='./cache/train_folds8_seed300.pkl',
-        imgdir='./input/stage_2_train_images',
+        annotations='/kaggle/working/cache/train_folds8_seed300.pkl',
+        imgdir='/kaggle/working/input/stage_2_train_images',
         imgsize=imgsize,
         n_grad_acc=1,
         loader=dict(
@@ -78,8 +78,8 @@ data = dict(
     ),
     valid = dict(
         dataset_type='CustomDataset',
-        annotations='./cache/train_folds8_seed300.pkl',
-        imgdir='./input/stage_2_train_images',
+        annotations='/kaggle/working/cache/train_folds8_seed300.pkl',
+        imgdir='/kaggle/working/input/stage_2_train_images',
         imgsize=imgsize,
         loader=dict(
             shuffle=False,
@@ -94,8 +94,8 @@ data = dict(
     ),
     test = dict(
         dataset_type='CustomDataset',
-        annotations='./cache/test.pkl',
-        imgdir='./input/stage_2_test_images',
+        annotations='/kaggle/working/cache/test.pkl',
+        imgdir='/kaggle/working/input/stage_2_test_images',
         imgsize=imgsize,
         loader=dict(
             shuffle=False,

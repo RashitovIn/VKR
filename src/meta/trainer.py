@@ -17,10 +17,10 @@ def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--inputs-oof')
     parser.add_argument('--inputs-test')
-    parser.add_argument('--output-dir', default='./meta')
+    parser.add_argument('--output-dir', default='/kaggle/working/meta')
     parser.add_argument('--output-name')
-    parser.add_argument('--train-raw', default='./cache/train_raw.pkl')
-    parser.add_argument('--test-raw', default='./cache/test_raw.pkl')
+    parser.add_argument('--train-raw', default='/kaggle/working/cache/train_raw.pkl')
+    parser.add_argument('--test-raw', default='/kaggle/working/cache/test_raw.pkl')
     parser.add_argument('--brain-diff', default=60)
     return parser.parse_args()
     
