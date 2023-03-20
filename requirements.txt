@@ -1,4 +1,5 @@
-albumentations==0.3.3         
+albumentations==0.3.3
+addict
 apex==0.1         
 catboost==0.12.2        
 efficientnet-pytorch==0.5.1
